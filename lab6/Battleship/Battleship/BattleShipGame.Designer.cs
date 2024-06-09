@@ -1,6 +1,6 @@
 ﻿namespace Battleship
 {
-    partial class Form1
+    partial class BattleShipGame
     {
         /// <summary>
         ///  Required designer variable.

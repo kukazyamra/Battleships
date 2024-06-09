@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "p2MeMYuWccmGknndfptURm18UBAy3kioWSpoZR7rJ/FyGXgPJoGaWI5OEbe1g3tbYUe7PAMge5mhiD4JBFRxSg==",
+  "dgSpecHash": "U4Tq89nX5kJX6rvb6zBcvCgzkf/rAB2GG27ABY8kXMQHJpBTLsQIBjjiGBUrvfJeHXAX8Oh88qM3AQq9i5+ksA==",
   "success": true,
-  "projectFilePath": "D:\\CSharp\\Battleship\\Battleship\\Battleship.csproj",
+  "projectFilePath": "C:\\Users\\nonton\\Desktop\\battleships\\lab6\\Battleship\\Battleship\\Battleship.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

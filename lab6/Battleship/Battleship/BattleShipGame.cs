@@ -1,6 +1,6 @@
 namespace Battleship
 {
-    public partial class Form1 : Form
+    public partial class BattleShipGame : Form
     {
         private bool[] placements;
         private const int gridSize = 10;
@@ -11,7 +11,7 @@ namespace Battleship
         private Button changePlayer;
         private Game game;
 
-        public Form1()
+        public BattleShipGame()
         {
             Button finishGame = new Button();
             finishGame.AutoSize = true;
