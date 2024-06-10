@@ -14,7 +14,7 @@
             Players = new Player[2];
             Players[0] = new Player("");
             Players[1] = new Player("");
-        }
+        }   
 
         public Player? CheckWin()
         {
@@ -63,6 +63,12 @@
                 }
 
             }
+        }
+        public void FinishGame()
+        {
+            Players = new Player[2];
+            Players[0] = new Player("");
+            Players[1] = new Player("");
         }
     }
 }

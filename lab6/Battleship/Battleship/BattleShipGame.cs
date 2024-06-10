@@ -20,9 +20,15 @@ namespace Battleship
             finishGame.Location = new Point(40, 500);
             finishGame.Tag = "endGame";
             this.Controls.Add(finishGame);
+            game = new Game();
+            StartNewGame();
+        }
+
+        public void StartNewGame()
+        {
             placements = new bool[2];
             finished = false;
-            game = new Game();
+            ClearControls();
             string name1 = Prompt.ShowDialog("¬ведите им€ первого игрока", "¬ход в игру");
 
             while (!game.ValidateName(name1))
@@ -256,8 +262,8 @@ namespace Battleship
 
         private void FinishGame_Click(object? sender, EventArgs e)
         {
-
-            this.Close();
+            game.FinishGame();
+            StartNewGame();
         }
 
         private void ClearControls()
